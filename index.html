@@ -404,6 +404,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script src="vendor/js/common.min.js"></script>  
+      <script src="vendor/js/pwabuilder-sw.js"></script>  
       <script type="text/javascript">
          $(".responsive-tabs").responsiveTabs({
              accordionOn: ["xs", "sm"]
@@ -428,5 +429,19 @@
          setTimeout(showSlides, 2000); // Change image every 2 seconds
          } 
       </script>
+       <script type="text/javascript">
+         if (navigator.serviceWorker.controller) {
+           console.log('[PWA Builder] active service worker found, no need to register')
+         } else {
+           //Register the ServiceWorker
+           navigator.serviceWorker.register('pwabuilder-sw.js', {
+             scope: './'
+           }).then(function(reg) {
+             console.log('Service worker has been registered for scope:'+ reg.scope);
+           });
+         }
+       </script>
+
+
    </body>
 </html>
