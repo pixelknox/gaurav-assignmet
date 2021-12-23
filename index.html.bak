@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Gaurav Dhiman Assignmet">
+    <meta name="author" content="Gaurav Dhiman">
+    <title>___</title>
+    <link href="images/favicon.ico" rel="SHORTCUT ICON" type="image/x-icon" />
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <!-- App Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/mobile-icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/mobile-icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/mobile-icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/mobile-icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/mobile-icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/mobile-icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/mobile-icon/mobile-icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/mobile-icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/mobile-icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/mobile-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/mobile-icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/mobile-icon/favicon-16x16.png">
+    <!-- WPA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/mobile-icon/apple-icon-114x114.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="vendor\css\bootstrap/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="vendor/css/custom.css" />
+	<link rel="stylesheet" href="vendor/css/theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div class="wrapper">
+	
+	<div class="container-fluid">
+	<div class="row">
+        <!-- Navigation -->
+        <!--<div w3-include-html="nav-bar.html"></div>-->
+        <!--Header starts here-->
+        <div class="header col-xl-12 float-left">
+		<div class="row mx-auto w-100">
+
+           
+            <nav class="navbar navbar-expand-lg fixed-top switch-menu navbar flex-column">                
+				<div class="col-lg-12 float px-0">
+				<div class="row">
+				<div class="wrapper-content">
+				<div class="col-lg-12 float-left">
+				
+                    <div class="adress-bar py-2">
+                        <a href="javascript:;" class="navbar-brand"><img src="vendor/images/UHD-Logo-Horizontal.png" alt="Logo image" /></a>
+                        <p class="adress">
+                            Call <span>713-221-8522</span>to speak to an Admissions Counselor or complete the form below to learn more!
+                        </p>
+                    </div>
+					
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">X</span>
+                    </button>
+                    </div>
+					 
+					 </div>
+					<div class="col-lg-12 px-0 float-left">
+					<div class="collapse navbar-collapse w-100 custom-nav-bar" id="navbarNavDropdown">
+					<div class="wrapper-content">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                        </ul>
+					</div>	
+                    </div>
+					</div>
+                </div>
+				</div>
+				
+				
+            </nav>
+
+            <!--banner starts here-->
+            <div class="banner w-100">
+                <!--slider starts here-->
+                <div class="slider">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="vendor/images/banner.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="vendor/images/banner.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="..." alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                
+                <!--slider ends here-->
+                <!--information form starts here-->
+				 <div class="quey-form w-100 float-left">
+                <div class="wrapper-content">
+				
+
+                        <form class="w-100 form">
+                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 float-right">
+							<div class="form-head">
+								<i class="fa fa-caret-down"></i><span>request information</span>
+							</div>		
+				
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="First Name*" />
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Last Name*" />
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="E-mail Address*" />
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Phone Number*" />
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>Program of Interest*</option>
+                                        <option>Program 1</option>
+                                        <option>Program 2</option>
+                                        <option>Program 3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>Program Delivery Type*</option>
+                                        <option>Program 1</option>
+                                        <option>Program 2</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>Preferred Communication Type*</option>
+                                        <option>Preferred 1</option>
+                                        <option>Preferred 2</option>
+                                    </select>
+                                </div>
+                                <button class="btn btn-danger text-white font-weight-bold w-100">LEARN MORE TODAY!</button>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <!--information form starts here-->
+
+
+            </div>
+			</div>
+            <!--banner ends here-->
+
+</div>
+        </div>
+        <!--Header Ends here-->
+        <!-- Content Holder -->
+        <div id="content" class="col-xl-12 float-left">
+            <div class="container-fluid ">
+                <div class="wrapper-content">
+                    <div class="row w-100 mx-auto">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left">
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 float-left">
+                                <div class="article">
+                                    <div class="heading"></div>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 float-left">
+                                <div class="img-placeholder"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left">
+                            <div class="article">
+                                <div class="heading">
+                                    <p></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left">
+                            <div class="custom-tabs">
+                                <ul class="nav nav-tabs responsive-tabs">
+                                    <li class="active"><a href="#business">BUSINESS</a></li>
+                                    <li><a href="#completion">COMPLETION</a></li>
+                                    <li><a href="#criminal-j">CRIMINAL JUSTICE</a></li>
+                                    <li><a href="#education">EDUCATION</a></li>
+                                    <li><a href="#humanities">HUMANITIES & SOCIAL SCIENCES</a></li>
+                                    <li><a href="#public-s">PUBLIC SERVICES</a></li>
+                                    <li><a href="#science">SCIENCE</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="business">
+                                        <div class="row ">
+                                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left tab-wrapper">
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 1
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 2
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 3
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane" id="completion">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left tab-wrapper">
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 4
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 5
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 6
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane" id="criminal-j">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left tab-wrapper">
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 7
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 8
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 9
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane" id="education">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left tab-wrapper">
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 7
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 8
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 9
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane" id="humanities">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left tab-wrapper">
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 10
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 11
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 12
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="public-s">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left tab-wrapper">
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 13
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 14
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 15
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="science">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left tab-wrapper">
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 16
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 17
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-left">
+                                                    <div class="article">
+                                                        data 18
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            
+
+
+</div>
+        </div>
+    </div>
+	</div>
+    <!-- Footer -->
+    <footer class="mt-3">
+        <div class="container-fluid p-0">
+            <div class="wrapper-content">
+                <div class="col-sm-12 col-md-12 col-lg-5 float-left text-center">
+                    <p>jghdkjhfkhfsvgkfhfkfkjshgfkjghfj</p>
+
+
+
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-5 float-left text-center">
+                    <ul>
+                        <li><a href="javascript:;">Home</a></li>
+                        <li><a href="javascript:;">Degree Programs</a></li>
+
+
+
+                    </ul>
+
+
+                    <div class="col-sm-12 col-md-12 col-lg-2 float-left text-center py-2 d-none d-lg-block">
+                        <a href="javascript;:"><i></i><br /><span>TOP</span></a>
+                    </div>
+                </div>
+
+                <section />
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- /.container -->
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="vendor/js/common.js"></script>  
+    <script type="text/javascript">
+        $(".responsive-tabs").responsiveTabs({
+            accordionOn: ["xs", "sm"]
+        });
+    </script>
+
+
+
+</body>
+
+
+</html>
